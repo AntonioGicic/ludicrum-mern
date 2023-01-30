@@ -9,11 +9,14 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
     useEffect(() => {
-        fetch('http://localhost:3001/')
-            .then(res => res.json())
-            .then(
-                (result) => { },
-            )
+        try {
+            fetch('https://ludicrum-mern-backend.onrender.com')
+                .then(res => res.json())
+                .then(
+                    (result) => { },
+                )
+        }
+        catch { console.log('Došlo je do pogreške') }
     }, [])
 
     return (
