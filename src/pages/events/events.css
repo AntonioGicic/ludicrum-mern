@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "CustomComicSans";
+    src: url(../comic-sans-ms/comici.ttf);
+}
+
+.all-events-box {
+    min-height: 30vh;
+}
+
+.search-h1 {
+    max-width: 800px;
+}
+
+.filter-box {
+    color: #3a4b40;
+    font-family: "CustomComicSans", Arial, Helvetica, sans-serif !important;
+}
+
+.sorting-box {
+    color: #3a4b40;
+    font-family: "CustomComicSans", Arial, Helvetica, sans-serif !important;
+}
+
+.sorting-button {
+    width: 170px;
+    text-decoration: none;
+    color: #f4f6f4;
+    background-color: #1bae70;
+    padding: 10px;
+    border: 1px solid #168859;
+    border-radius: 7px;
+    cursor: pointer;
+    -webkit-box-shadow: 10px 10px 15px -4px rgb(0 0 0 / 75%);
+    -moz-box-shadow: 10px 10px 15px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 15px -4px rgb(0 0 0 / 75%);
+}
+
+@media screen and (max-width: 800px) {
+    .sorting-button {
+        width: 120px;
+    }
+}
+
+.sorting-button:hover {
+    color: #f4f6f4;
+    scale: 1.05;
+    background-color: #1a9d66;
+}
+
+.sorting-disabled {
+    cursor: default;
+    background-color: #1a9d66;
+    -webkit-box-shadow: inset 0px -1px 17px -6px rgb(0 0 0 / 75%);
+    -moz-box-shadow: inset 0px -1px 17px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0px -1px 17px -6px rgb(0 0 0 / 75%);
+    scale: 0.9;
+}
+
+.sorting-disabled:hover {
+    cursor: default;
+    background-color: #1a9d66;
+    scale: 0.9;
+}
