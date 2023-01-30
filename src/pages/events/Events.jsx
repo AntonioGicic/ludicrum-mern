@@ -30,8 +30,7 @@ const Events = () => {
             const fetchData = async () => {
                 setLoading(true);
                 try {
-                    const currentUrl = window.location.href;
-                    const data = await fetch(currentUrl);
+                    const data = await fetch('https://ludicrum-mern.onrender.com/dogadaji');
                     const response = await data.json();
                     setEventsNumber(response.length)
                     const currentQueryString = window.location.search;
