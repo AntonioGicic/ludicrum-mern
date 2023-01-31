@@ -18,8 +18,9 @@ const Details = () => {
     const [reportActive, setReportActive] = useState(false);
 
     const getEventsDetails = async () => {
-        const url = window.location.href;
-        const response = await fetch(url);
+        const url = window.location.href.slice(44);
+        const idUrl = 'https://ludicrum-mern.onrender.com/dogadaji/' + url
+        const response = await fetch(idUrl);
         try {
             const fullDetails = await response.json();
             if (fullDetails.dateEnd) {
