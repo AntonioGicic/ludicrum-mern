@@ -19,7 +19,7 @@ const Details = () => {
 
     const getEventsDetails = async () => {
         const url = window.location.href.slice(44);
-        const idUrl = 'https://ludicrum-mern.onrender.com/dogadaji/' + url
+        const idUrl = 'https://ludicrum-mern-backend.onrender.com/dogadaji/' + url
         const response = await fetch(idUrl);
         try {
             const fullDetails = await response.json();
