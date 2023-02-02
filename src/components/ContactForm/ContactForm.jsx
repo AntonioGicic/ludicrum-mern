@@ -19,7 +19,7 @@ const ContactForm = () => {
     return (
         <>
             <Container className='contact-form-div my-5 p-4'>
-                <Form noValidate validated={validated} onSubmit={handleSubmit} action='/kontakt' method='post' className='d-flex flex-column'>
+                <Form noValidate validated={validated} onSubmit={handleSubmit} action='https://ludicrum-mern-backend.onrender.com/kontakt' method='post' className='d-flex flex-column'>
                     <Form.Group className='' controlId='contactName'>
                         <Form.Label>Ime i prezime</Form.Label>
                         <Form.Control type='text' name='contactName' required maxLength={50} />
