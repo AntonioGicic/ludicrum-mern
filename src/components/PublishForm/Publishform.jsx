@@ -34,7 +34,7 @@ const Publishform = () => {
     return (
         <>
             <Container className='my-5 mx-auto p-4 contact-form-div publish-form'>
-                <Form noValidate validated={validated} onSubmit={handleSubmit} className='d-flex flex-column' action='/dogadaji' method='post' >
+                <Form noValidate validated={validated} onSubmit={handleSubmit} className='d-flex flex-column' action='https://ludicrum-mern-backend.onrender.com/dogadaji' method='post' >
                     <Form.Group controlId='publishTitle'>
                         <Form.Label>Naziv događaja</Form.Label>
                         <Form.Control type='text' name='event[title]' required maxLength={50} />
