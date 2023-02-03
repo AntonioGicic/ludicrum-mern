@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "CustomComicSans";
+    src: url(../comic-sans-ms/comici.ttf);
+}
+
+.welcome-message {
+    color: black;
+    font-family: "CustomComicSans", Arial, Helvetica, sans-serif !important;
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 122.88 49.21"
+   version="1.1"
+   sodipodi:docname="mailSent.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs9">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient874">
+      <stop
+         style="stop-color:#0b0b0b;stop-opacity:1;"
+         offset="0"
+         id="stop870" />
+      <stop
+         style="stop-color:#00673b;stop-opacity:1;"
+         offset="1"
+         id="stop872" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient874"
+       id="linearGradient876"
+       x1="0"
+       y1="24.605"
+       x2="105.82445"
+       y2="23.66493"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="7.4462581"
+     inkscape:cx="55.12836"
+     inkscape:cy="24.911841"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1" />
+  <title
+     id="title2">sent-mail</title>
+  <path
+     d="M54.58,0,86.24,27.52,120.63,0ZM35.37,37.6a2.9,2.9,0,0,1,0,5.79H23a2.9,2.9,0,0,1,0-5.79Zm2.89-15.89a2.9,2.9,0,0,1,0,5.79H12.89a2.9,2.9,0,0,1,0-5.79Zm59.92.45L119.54,46.5l3.34-44.11L98.18,22.16Zm-20.94,2.2L50.58,49.21h66.65L95.42,24.37,87.11,31h0a1.72,1.72,0,0,1-2.18,0l-7.69-6.69Zm-28.35,22,25.87-24.1L52.2,2.61l-3.31,43.7ZM38.26,5.82a2.89,2.89,0,1,1,0,5.78H2.89a2.89,2.89,0,0,1,0-5.78Z"
+     id="path4"
+     style="fill-opacity:1;fill:url(#linearGradient876)" />
+</svg>

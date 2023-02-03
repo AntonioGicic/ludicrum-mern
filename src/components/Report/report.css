@@ -1,0 +1,38 @@
+.report-container {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index: 2005;
+    backdrop-filter: blur(10px);
+}
+
+.report-form {
+    margin-top: -10%;
+    max-width: 550px;
+    border: 2px solid #1bae70;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+.exit-report {
+    margin-top: -10px;
+}
+
+.exit-report:hover {
+    cursor: pointer;
+}
+
+.report-form-button {
+    background-color: #f81f1f;
+    border: 1px solid black;
+}
+
+.report-form-button:hover {
+    background-color: #c81919;
+    border: 1px solid black;
+}
+
+.form-check-input:checked {
+    background-color: #1bae70;
+    border-color: #1bae70;
+}
