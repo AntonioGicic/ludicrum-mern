@@ -51,7 +51,7 @@ const Events = () => {
     async function fetchData() {
         setLoading(true);
         try {
-            axios.get('/api/dogadaji').then((response) => {
+            axios.get('https://ludicrum-mern-backend.onrender.com/api/dogadaji').then((response) => {
                 if (isSortedByDate) {
                     setEventsData(response.data);
                     setEventsNumber(response.data.length);
@@ -76,7 +76,7 @@ const Events = () => {
             const cityQuery = e.target[0].value;
             const dateQuery = e.target[1].value;
             const categoryQuery = e.target[2].value;
-            const queryUrl = '/api/dogadaji?city=' + cityQuery + '&date=' + dateQuery + '&category=' + categoryQuery;
+            const queryUrl = 'https://ludicrum-mern-backend.onrender.com/api/dogadaji?city=' + cityQuery + '&date=' + dateQuery + '&category=' + categoryQuery;
             if (cityQuery === '' && dateQuery === '' && categoryQuery === '') {
                 setNoQuery(true)
             } else {
