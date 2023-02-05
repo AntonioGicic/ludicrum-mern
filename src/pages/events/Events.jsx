@@ -189,7 +189,7 @@ const Events = () => {
                 <Row className='align-items-center test justify-content-center'>
                     {loading && <LoadingSpinner />}
                     {!loading &&
-                        eventsData.map((eachEvent) => (
+                        eventsData?.map((eachEvent) => (
                             < EventsCard key={eachEvent['_id']} eventId={eachEvent['_id']} eventTitle={eachEvent['title']} eventCategory={eachEvent['category']}
                                 eventCity={eachEvent['city']} eventDateEnd={eachEvent['dateEnd']} eventDatePublished={eachEvent['createdAt']}
                                 eventDateStart={eachEvent['dateStart']} eventDescription={eachEvent['description']} eventLocation={eachEvent['location']} eventViewNumber={eachEvent['viewNumber']} />
