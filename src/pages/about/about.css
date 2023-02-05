@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "CustomComicSans";
+    src: url(../comic-sans-ms/comici.ttf);
+}
+
+.home-container {
+    color: black;
+    font-family: "CustomComicSans", Arial, Helvetica, sans-serif !important;
+}
+
+.arrow {
+    margin-top: 80px;
+    height: 80px;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+
+.bounce {
+    animation-name: bounce;
+    animation-timing-function: cubic-bezier(0.280, 0.840, 0.420, 1);
+}
+
+@keyframes bounce {
+    0% {
+        transform: scale(1, 1) translateY(0);
+    }
+
+    10% {
+        transform: scale(1.1, .9) translateY(0);
+    }
+
+    30% {
+        transform: scale(.9, 1.1) translateY(-50px);
+    }
+
+    50% {
+        transform: scale(1.05, .95) translateY(0);
+    }
+
+    57% {
+        transform: scale(1, 1) translateY(-7px);
+    }
+
+    64% {
+        transform: scale(1, 1) translateY(0);
+    }
+
+    100% {
+        transform: scale(1, 1) translateY(0);
+    }
+}
+
+.window-image {
+    -webkit-box-shadow: 10px 10px 15px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 15px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 15px -4px rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+    max-height: 500px;
+}
+
+.croatia-image {
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    min-width: 50px;
+}
+
+.gray-color {
+    color: #3A4B40 !important;
+}
+
+.about-mission h3 {
+    color: black;
+}
+
+.link-to-terms {
+    color: #1bae70;
+    text-decoration: none;
+}
+
+.link-to-terms:hover {
+    color: #1bae70;
+    text-decoration: none;
+}

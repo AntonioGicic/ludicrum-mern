@@ -1,0 +1,37 @@
+.navbar {
+    background: rgb(64, 64, 64);
+    background: linear-gradient(0deg, rgba(64, 64, 64, 1) 0%, rgba(103, 103, 103, 1) 86%);
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.navbar-brand {
+    background: -webkit-linear-gradient(#1bae70, #04b266);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navbar-brand img {
+    vertical-align: sub !important;
+}
+
+.n-links {
+    color: whitesmoke !important;
+}
+
+.n-links:hover {
+    scale: 1.05;
+}
+
+.navbar-toggler {
+    border-color: #1bae70 !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url('./menu.png') !important;
+}
